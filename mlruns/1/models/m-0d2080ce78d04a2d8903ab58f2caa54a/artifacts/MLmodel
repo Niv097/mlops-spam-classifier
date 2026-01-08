@@ -1,0 +1,22 @@
+artifact_path: file:C:/Users/Niv/mlops-spam-classifier/mlruns/1/models/m-0d2080ce78d04a2d8903ab58f2caa54a/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+mlflow_version: 3.8.1
+model_id: m-0d2080ce78d04a2d8903ab58f2caa54a
+model_size_bytes: 1689
+model_uuid: m-0d2080ce78d04a2d8903ab58f2caa54a
+prompts: null
+run_id: c344991c04c44dc9997aff25d26b91dc
+utc_time_created: '2026-01-08 20:12:43.912919'
